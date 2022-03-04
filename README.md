@@ -104,17 +104,14 @@ patients.columns
 ```
 Setting our variables for X and y
 ```
-X=patients[['Age', 'Gender', 'Total_Bilirubin', 'Direct_Bilirubin',        
-'Alkaline_Phosphotase', 'Alamine_Aminotransferase',
-'Aspartate_Aminotransferase', 'Total_Protiens', 'Albumin',
-'Albumin_and_Globulin_Ratio']]
+X=patients[['Age', 'Gender', 'Total_Bilirubin', 'Direct_Bilirubin','Alkaline_Phosphotase', 'Alamine_Aminotransferase','Aspartate_Aminotransferase', 'Total_Protiens','Albumin','Albumin_and_Globulin_Ratio']]
+ 
 y=patients['Dataset']
 ```
 fitting our variables for the train-test-split method
 ```
-X=patients[['Age', 'Gender', 'Total_Bilirubin', 'Direct_Bilirubin','Alkaline_Phosphotase', 'Alamine_Aminotransferase','Aspartate_Aminotransferase', 'Total_Protiens','Albumin','Albumin_and_Globulin_Ratio']]
- 
- y=patients['Dataset']
+X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.3,random_state=123)
+
 ```
 
 
