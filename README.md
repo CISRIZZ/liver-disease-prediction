@@ -21,6 +21,12 @@ import seaborn as sns
 import warnings
 warnings.filterwarnings('ignore')
 ``` 
-
-
+```
+#We imported os to lead pandas access the file
+import os
+for dirname, _, filenames in os.walk('/kaggle/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
+patients=pd.read_csv('/kaggle/input/indian-liver-patient-records/indian_liver_patient.csv')
+```
 
