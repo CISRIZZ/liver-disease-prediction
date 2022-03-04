@@ -13,4 +13,11 @@ We used numpy, madplotlib, pandas, seaborn, linear regression from scikit-learn 
 
 
 
-# Creddits- 
+# our code
+> import numpy as np   #Importing necessary libraries to begin the code with seaborn for connecting pandas and the dataset for plt and warnings are ignored hor a hassle-free   coding session!
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import warnings
+warnings.filterwarnings('ignore')
+------------------------------------------------------------
