@@ -32,14 +32,15 @@ patients=pd.read_csv('/kaggle/input/indian-liver-patient-records/indian_liver_pa
 ```
 Reviewing our data
 ```
-
+patients.head()
 ```
 Checking our rows and columns
 ```
-
+patients.shape
 ```
 1 is male =, 0 is female
 ```
+patients['Gender']=patients['Gender'].apply(lambda x:1 if x=='Male' else 0)
 ```
 ```
 patients.head()
