@@ -98,7 +98,9 @@ finding out necessary variables
 patients.columns
 ```
 ```
-X=patients[['Age', 'Gender', 'Total_Bilirubin', 'Direct_Bilirubin',        #Setting our variables for X and y
+Setting our variables for X and y
+```
+X=patients[['Age', 'Gender', 'Total_Bilirubin', 'Direct_Bilirubin',        
        'Alkaline_Phosphotase', 'Alamine_Aminotransferase',
        'Aspartate_Aminotransferase', 'Total_Protiens', 'Albumin',
        'Albumin_and_Globulin_Ratio']]
