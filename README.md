@@ -1,4 +1,4 @@
-# 2022 it hackathon project 
+2022 it hackathon project 
 
 
 # CISRIZZ-LIVER-DISEASE-PREDICTION
@@ -13,5 +13,4 @@ we used numpy, madplotlib, pandas, seaborn, linear regression from scikit-learn 
 
 
 
-
-#creddits- 
+# creddits- 
