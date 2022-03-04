@@ -1,4 +1,4 @@
-# liver-disease-prediction
+# 2022 it hackathon project 
 
 
 # CISRIZZ-LIVER-DISEASE-PREDICTION
