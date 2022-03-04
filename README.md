@@ -40,7 +40,8 @@ patients.shape
 ```
 1 is male =, 0 is female
 ```
-patients['Gender']=patients['Gender'].apply(lambda x:1 if x=='Male' else 0)
+patients['Gender']=patients['Gender'].
+apply(lambda x:1 if x=='Male' else 0)
 ```
 ```
 patients.head()
@@ -51,7 +52,9 @@ patients['Gender'].value_counts().plot.bar(color='peachpuff')
 ```
 Checking how many in general have the disease vs those who dont
 ```
-patients['Dataset'].value_counts().plot.bar(color='blue')
+patients['Dataset'].
+value_counts().
+plot.bar(color='blue')
 ```
 Searching for null values == 4 found
 ```
@@ -59,7 +62,9 @@ patients.isnull().sum()
 ```
 Filling in null value via .mean(), .fillna() function
 ```
-patients['Albumin_and_Globulin_Ratio'].mean() #Filling in null value via .mean(), .fillna() function
+patients['Albumin_and_Globulin_Ratio'].
+mean() #Filling in null value via .mean(),.
+fillna() function
 ```
 ```
 patients=patients.fillna(0.94)
@@ -97,21 +102,18 @@ finding out necessary variables
 ```
 patients.columns
 ```
-```
 Setting our variables for X and y
 ```
 X=patients[['Age', 'Gender', 'Total_Bilirubin', 'Direct_Bilirubin',        
-       'Alkaline_Phosphotase', 'Alamine_Aminotransferase',
-       'Aspartate_Aminotransferase', 'Total_Protiens', 'Albumin',
-       'Albumin_and_Globulin_Ratio']]
+'Alkaline_Phosphotase', 'Alamine_Aminotransferase',
+'Aspartate_Aminotransferase', 'Total_Protiens', 'Albumin',
+'Albumin_and_Globulin_Ratio']]
 y=patients['Dataset']
 ```
 fitting our variables for the train-test-split method
 ```
-X=patients[['Age', 'Gender', 'Total_Bilirubin', 'Direct_Bilirubin',       
-'Alkaline_Phosphotase', 'Alamine_Aminotransferase',
-'Aspartate_Aminotransferase', 'Total_Protiens', 'Albumin',
-'Albumin_and_Globulin_Ratio']]
+X=patients[['Age', 'Gender', 'Total_Bilirubin', 'Direct_Bilirubin','Alkaline_Phosphotase', 'Alamine_Aminotransferase','Aspartate_Aminotransferase', 'Total_Protiens','Albumin','Albumin_and_Globulin_Ratio']]
+ 
  y=patients['Dataset']
 ```
 
