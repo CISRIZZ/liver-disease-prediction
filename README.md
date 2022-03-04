@@ -1,4 +1,4 @@
-2022 it hackathon project 
+2022 IT hackathon project 
 
 
 # CISRIZZ-LIVER-DISEASE-PREDICTION
