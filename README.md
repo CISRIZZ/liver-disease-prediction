@@ -13,16 +13,17 @@ We used numpy, madplotlib, pandas, seaborn, linear regression from scikit-learn 
 
 
 ## Our code
+ #Importing necessary libraries to begin the code with seaborn for connecting pandas and the dataset for plt and warnings are ignored hor a hassle-free coding 
 ```
-import numpy as np   #Importing necessary libraries to begin the code with seaborn for connecting pandas and the dataset for plt and warnings are ignored hor a hassle-free coding session!
+import numpy as np  session!
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
 warnings.filterwarnings('ignore')
 ``` 
+ #We imported os to lead pandas access the file
 ```
-#We imported os to lead pandas access the file
 import os
 for dirname, _, filenames in os.walk('/kaggle/input'):
     for filename in filenames:
