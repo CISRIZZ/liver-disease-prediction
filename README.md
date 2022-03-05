@@ -2,7 +2,7 @@
 
 
 # CISRIZZ-LIVER-DISEASE-PREDICTION
-This is a program made using Machine Learning and is a code to help the indian healthcare industry predict liver diseases and save the future of our Bharat! We were inspired by our friend Nikilesh who is also in our team, Nikilesh had lost a close one due to this disease at a very young age and it was completely unpredictable, doctors said that if they knew earlier; they'd have saved him from this. Thats where the idea sparked and when Nikilesh told us that we were doing this for the whole of India, we couldn't ask for better!
+This is a program made using Machine Learning and is a code to help the indian healthcare industry predict liver diseases and save the future of our Bharat! We were inspired by our friend Nikilesh who is also in our team, Nikilesh had lost a close one due to this disease at a very young age and it was completely unpredictable, doctors said that if they knew earlier; they'd have saved him from this. Thats where the idea sparked and when Nikilesh told us that we were doing this for the whole of India, we couldn't ask for better! We decided to do this for our stonehill hackathon, in which we took up the theme of Industry, Innovation, and Infrastrucutre; this would solely contribute to the theme as we are quality, reliable, sustainable, and resilient infrastructure, including regional and trans-border infrastructure, to support the economic development and well-being of all.
 
 
 
