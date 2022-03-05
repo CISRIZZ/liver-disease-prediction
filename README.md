@@ -2,7 +2,7 @@
 
 
 # CISRIZZ-LIVER-DISEASE-PREDICTION
-This is a program made using kaggle and is a code to help the indian healthcare industry predict kidney liver diseases and save the future of our Bharat!
+This is a program made using kaggle and is a code to help the indian healthcare industry predict liver diseases and save the future of our Bharat! We were inspired by our friend Nikilesh who is also in our team, Nikilesh had lost a close one due to this disease at a very young age and it was completely unpredictable, doctors said that if they knew earlier; they'd have saved him from this. Thats where the idea sparked and when Nikilesh told us that we were doing this for the whole of India, we couldn't ask for better!
 
 
 
